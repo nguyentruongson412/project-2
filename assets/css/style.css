@@ -83,6 +83,9 @@ a {
 
 /* ++++++++++ Header +++++++++++ */
 .header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
     padding-top: 36px;;
     background: #FFFCF4;
 }
