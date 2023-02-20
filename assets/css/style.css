@@ -653,3 +653,84 @@ a {
     margin-top: 12px;
     font-size: 1.4rem;
 }
+
+/* =============++ Footer ++============== */
+
+.footer {
+    padding-top: 96px;
+    background: #2E2100;
+}
+
+.footer .row {
+    display: flex;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554B;
+}
+
+.footer .row .column {
+    width: 21.6%;
+}
+
+.footer .row .column:first-child {
+    width: 35%;
+    padding: 0 145px 48px 0;
+}
+
+.footer .column .logo {
+    display: block;
+}
+
+.footer .column .desc {
+    margin: 18px 0;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #BFBCB2;
+}
+
+.footer .socials{
+    display: flex;
+    gap: 18px;
+}
+
+.footer .column .list {
+    margin-top: 28px;
+}
+
+.footer .column .title {
+    display: inline-block;
+    padding: 0 48px 14px 0;
+    border-bottom: 1px solid #59554B;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #FFFFFF;
+}
+
+.footer .column a {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #BFBCB2;
+
+}
+
+.footer .list strong {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #FFFFFF;
+}
+
+.footer .copyright {
+    text-align: center;
+    padding: 28px;
+}
+
+.footer .copyright p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #807D74;
+}
