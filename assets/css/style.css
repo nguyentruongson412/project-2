@@ -83,16 +83,19 @@ a {
 
 /* ++++++++++ Header +++++++++++ */
 .header {
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-    padding-top: 36px;;
     background: #FFFCF4;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -28px;
+    z-index: 1;
 }
 
 .header .body {
     display: flex;
     align-items: center;
+    padding: 36px 0 8px;
 }
 
 .nav {
